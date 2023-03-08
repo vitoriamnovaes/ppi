@@ -1,0 +1,21 @@
+html{ border: 1px solid black;
+    
+}
+
+body{
+    height:  250%;
+     border: 1px solid pink;
+    }
+
+body>div{ height: 50%;}
+
+div{
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.box{
+    border: 1px solid black;
+    width: 30vw;
+    height: 30vh;
+}

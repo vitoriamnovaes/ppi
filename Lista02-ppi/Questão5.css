@@ -1,0 +1,17 @@
+h1{
+    text-shadow: 0.1em 0.1em 0.5em #c01515;
+    font-family: 'Times New Roman', Times, serif;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: inline-block;
+    color: black;
+}
+ol,li{
+    margin: 0;
+    padding: 0;
+}

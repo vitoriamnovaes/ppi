@@ -1,0 +1,31 @@
+span{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+}
+#div1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: greenyellow;
+}
+#div2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red; 
+}
+#div3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: green;
+}
+#div4{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: blue;
+}

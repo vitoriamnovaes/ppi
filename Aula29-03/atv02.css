@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 0.5fr 1fr 1fr 1fr;
+    
+    height: 100vw;
+    grid-gap: 5px; 
+    grid-template-areas:
+    "header header header header header header"
+    ". maincontent maincontent maincontent sidebar .  "
+    ". twin1 twin1  twin2 twin2 ."
+    "footer footer footer footer footer footer"
+  ;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    background-color: greenyellow;
+    grid-area: maincontent;
+}
+.sidebar{
+    background-color: violet;
+    grid-area: sidebar;
+}
+.twin1{
+    background-color: orange;
+    grid-area: twin1;
+}
+.twin2{
+    background-color: orange;
+    grid-area: twin2 ;
+}
+.header{
+    background-color: blue;
+    grid-area: header ;
+    
+}
+.footer{
+    background-color: blueviolet;
+    grid-area: footer;
+}

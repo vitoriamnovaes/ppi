@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+  }
+  
+  .div1 {
+    width: 300px; 
+    background-color: pink; 
+    padding: 20px; 
+  }
+  
+  .div2 {
+    flex-grow: 1;
+    background-color: aqua; 
+    padding: 20px; 
+  }

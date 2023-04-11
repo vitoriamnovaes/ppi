@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    border: solid 2px black;
+    flex-direction: column;
+    background-color: pink;
+    height: 100vh;
+}
+
+.coluna1{
+    width: 25%;
+   
+}
+.coluna2{
+    flex-grow: 1;
+  
+}
+.coluna3{
+    width: 25%;
+  
+}

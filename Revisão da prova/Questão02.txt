@@ -1,0 +1,17 @@
+Seletores: 
+p+p{
+    adjacente posterior
+}
+p~p{
+    adjacente posterior ou inferior
+}
+
+-----------------------------------------------------
+pseudo-seletores: quando passa o mause por cima do (paragráfo) ele aparece
+
+p:hover = quando passa o mause por cima do (paragráfo) ele aparece
+
+p:before{
+    content: "(";
+    vai adicionar o parenteses antes da escrita
+}

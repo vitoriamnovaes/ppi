@@ -1,0 +1,14 @@
+Internet: Uma rede de computadores que permite que terconecta computadores globalmente.
+
+Web: A web é um serviço de provimento de documentos e páginas sobre a internet, documentos 
+interligados estes com referencias(links) de documentos. Utilizando p protolcolo TCP/IP.
+
+Http: é um protolcolo texto utilizado para troca de mensagens entre clientes e servidor na web.
+
+Requisição: Requisição é a ação de solicitar algo, no contexto do protolcolo HTTP requisição é 
+uma mensagem enviada pelo cliente informado ao servidor descrevendo a natureza da solicitação 
+de documentos e contendo dados preenchidos pelo usuário ou documento HTML. Toda requisição é 
+processada pelo servidor que emite uma resposta HTTP response, nesta e incluindo como conteúdo 
+o resultado do processamento da requisição bem como um código que informa o status do processamento 
+da requisição.
+

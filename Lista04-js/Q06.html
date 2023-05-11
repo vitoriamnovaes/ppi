@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão06</title>
+</head>
+<style>
+    li{
+        border: 1px solid pink;
+    }
+</style>
+<body>
+    <input type="text" id="inserir">
+    <button onclick="salvar()" id="buttonAdd">Ver lista</button>
+    <ul id="listarItem"></ul>
+
+    <script>
+      let add = document.getElementById('inserir');
+    let button = document.getElementById('buttonAdd');
+    let list = document.getElementById('listarItem');
+
+
+    function salvar() {
+    let newItem = document.createElement('li');
+    newItem.innerText = add.value;
+    list.appendChild(newItem);
+}
+    </script>
+    
+</body>
+</html>

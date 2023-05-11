@@ -1,0 +1,9 @@
+1) Explique como JavaScript pode ser executado, apresente um print com uma mensagem
+exemplificando a execução de um Hello.
+
+R: JavaScript pode ser executado em vários ambientes, tais quais, servidores e navegadores web, aplicativos desktop, entre outros.
+
+<script>
+		alert("Hello, world!");
+</script>
+     
